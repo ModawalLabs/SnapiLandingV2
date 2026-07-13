@@ -25,9 +25,9 @@ const CARDS = {
   },
   versace: {
     offset: { top: 0.85, left: 0.566 },
-    size:   { w: 0.338,   h: 0.374  },
+    size:   { w: 0.27378,   h: 0.30294  },
     rotate: "rotate(7deg)",
-    zIndex: 10,
+    zIndex: 0,
     img:    { src: "/images/versace.png", alt: "Versace", style: {} },
   },
 } as const;

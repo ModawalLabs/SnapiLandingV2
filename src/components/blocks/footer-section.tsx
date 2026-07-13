@@ -141,31 +141,46 @@ export function FooterSection() {
           style={{
             width: "100%",
             display: "flex",
-            justifyContent: "center",
+            justifyContent: "space-between",
             alignItems: "center",
             gap: "32px",
             padding: "0 24px 40px",
           }}
         >
-          {(["Terms & Conditions", "Privacy Policy"] as const).map((item) => (
-            <button
-              key={item}
-              onClick={() => setActiveModal(item === "Terms & Conditions" ? "terms" : "privacy")}
-              style={{
-                fontFamily: "var(--font-inter), sans-serif",
-                fontSize: "0.8rem",
-                fontWeight: 400,
-                color: "rgba(255,255,255,0.35)",
-                background: "none",
-                border: "none",
-                cursor: "pointer",
-                letterSpacing: "0.02em",
-                padding: 0,
-              }}
-            >
-              {item}
-            </button>
-          ))}
+          <p
+            style={{
+              fontFamily: "var(--font-inter), sans-serif",
+              fontSize: "0.8rem",
+              fontWeight: 400,
+              color: "rgba(255,255,255,0.35)",
+              letterSpacing: "0.02em",
+              margin: 0,
+            }}
+          >
+            © 2026 QLeapAI LLC
+          </p>
+
+          <div style={{ display: "flex", alignItems: "center", gap: "32px" }}>
+            {(["Terms & Conditions", "Privacy Policy"] as const).map((item) => (
+              <button
+                key={item}
+                onClick={() => setActiveModal(item === "Terms & Conditions" ? "terms" : "privacy")}
+                style={{
+                  fontFamily: "var(--font-inter), sans-serif",
+                  fontSize: "0.8rem",
+                  fontWeight: 400,
+                  color: "rgba(255,255,255,0.35)",
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
+                  letterSpacing: "0.02em",
+                  padding: 0,
+                }}
+              >
+                {item}
+              </button>
+            ))}
+          </div>
         </div>
       </motion.footer>
 

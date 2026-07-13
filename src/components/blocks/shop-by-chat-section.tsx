@@ -44,23 +44,6 @@ export function ShopByChatSection() {
           </h2>
         </FadeIn>
 
-        <FadeIn delay={0.2}>
-          <p
-            style={{
-              fontFamily: "var(--font-inter), sans-serif",
-              fontSize: "clamp(1rem, 1.6vw, 1.2rem)",
-              lineHeight: 1.7,
-              color: "rgba(255,255,255,0.6)",
-              maxWidth: "620px",
-              margin: "0 auto 64px",
-            }}
-          >
-            Tell Snapi what you&apos;re after
-            a budget gown, a rare designer bag, this season&apos;s must-have
-            sneaker and watch it search, compare, and curate in real time.
-          </p>
-        </FadeIn>
-
         <FadeIn delay={0.3}>
           {/* Placeholder product still — swap the <img> for a <video> element once the clip is ready. */}
           <div

@@ -246,7 +246,7 @@ export function HeroSection() {
               y: newTextY,
             }}
           >
-            The more you use it,<br />the smarter it gets.
+            The more you shop, <br />the smarter it gets.
           </motion.h2>
 
           {/* Cards row */}

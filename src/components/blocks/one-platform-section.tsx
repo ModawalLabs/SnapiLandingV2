@@ -57,7 +57,7 @@ export function OnePlatformSection() {
           fontSize: "clamp(2.4rem, 6.4vw, 7.2rem)",
           fontWeight: 400,
           letterSpacing: "-0.01em",
-          lineHeight: 1.05,
+          lineHeight: 1.12455,
           textAlign: "center",
           margin: 0,
           background: "linear-gradient(135deg, #F59E0B 0%, #F8D594 100%)",
